@@ -1,7 +1,7 @@
 package api
 
 import (
-	"github.com/udemy_fileserver/server"
+	"github.com/UdemyIevgenMaPostgres/server"
 )
 
 // Start exported function capitalized

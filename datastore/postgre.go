@@ -6,6 +6,8 @@ import (
 	"github.com/jmoiron/sqlx"
 	// Blank import comment
 	_ "github.com/lib/pq"
+	"github.com/UdemyIevgenMaPostgres/secret"
+
 )
 
 
@@ -17,7 +19,7 @@ func ConnectPostgre() {
 	var err error
 
 	dbinfo := fmt.Sprintf("user=%s password=%s dbname=%s sslmode=disable",
-		DbUser, DbPassword, DbName)
+	secret.DbUser,  secret.DbPassword,  secret.DbName)
 	//"user=postgres dbname=udemy_fileserver sslmode=disable"
 	Postgre, err = sqlx.Open("postgres", dbinfo)
 	if err != nil {

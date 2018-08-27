@@ -11,8 +11,8 @@ import (
 
 	"github.com/disintegration/imaging"
 	uuid "github.com/satori/go.uuid"
-	"github.com/udemy_fileserver/models"
-	"github.com/udemy_fileserver/server"
+	"github.com/UdemyIevgenMaPostgres/models"
+	"github.com/UdemyIevgenMaPostgres/server"
 	"net/http"
 )
 

@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/udemy_fileserver/datastore"
+	"github.com/UdemyIevgenMaPostgres/datastore"
 )
 
 // File exported type structure with tags for database entries

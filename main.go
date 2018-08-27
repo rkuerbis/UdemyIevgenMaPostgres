@@ -1,12 +1,12 @@
 package main
 
 import (
-	"github.com/udemy_fileserver/api"
-	"github.com/udemy_fileserver/datastore"
+	"github.com/UdemyIevgenMaPostgres/api"
+	"github.com/UdemyIevgenMaPostgres/datastore"
 	"log"
 	"runtime"
 
-	"github.com/udemy_fileserver/server"
+	"github.com/UdemyIevgenMaPostgres/server"
 )
 
 func main() {
