@@ -8,13 +8,6 @@ import (
 	_ "github.com/lib/pq"
 )
 
-// Database entry identification
-const (
-	DbUser     = "postgres"
-	DbPassword = "linux"
-	DbName     = "udemy_fileserver"
-)
-
 
 // Postgre access code
 var Postgre *sqlx.DB
